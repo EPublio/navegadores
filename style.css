@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #00000028;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    font-size: 34px;
+    padding: 12px 25% 0px;
+}
+.subtitle{
+    font-size: 20px;
+    padding: 12px 25%;
+}
+
+.text{
+    font-size: 19px;
+    padding: 12px 25%;
+    text-align: justify;
+}
+
+.navbar{
+    background-color: #28124b;
+    width: 100%;
+    height: 90px;
+}
+
+.navbar .browser{
+    width: 50px;
+    margin: 20px 60px;
+    filter: invert(100%);
+}
+
+.navbar .navegador{
+    width: 40px;
+    margin: 25px 60px;
+}
+
+.navbar ul{
+    float:right;
+    margin-right: 60px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 33px 5px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius:3px ;
+}
+
+.navbar ul li a:hover{
+    color: #28124b;
+    background-color: white;
+    transition: .5s ;
+}
+
+.container-2{
+    width: 100%;
+}
+
+.list-navs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+
+.navs{
+    width:250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #28124b;    
+    
+}
+.navicon h2{
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.navicon{
+    width: 150px;
+}
+
+.navicon img{
+    width: 100%;
+    height: 100%;
+}
+
+.navs:hover{
+    transition: ease-out .5s;
+    color: #ffffff;
+    background-color: #4a228b;
+}
+
+.descnavegador{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 25%;
+}
+.descnavegador h1{
+    padding: 20px;
+}
+.descnavegador p{
+    font-size: 19px;
+}
+.img{
+    width: 120px;
+}
+
+.links{
+    color: #4a228b;
+    text-decoration:underline;
+}
+.links:hover{
+    color: #8767bb;
+    
+}
